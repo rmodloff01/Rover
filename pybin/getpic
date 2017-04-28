@@ -1,0 +1,6 @@
+#!/bin/bash
+
+TIME=`date +"%Y_%m_%d_%H-%M"`
+FILENAME="$TIME"_image.jpg
+
+raspistill -rot 270 -o /home/pi/Pictures/$FILENAME
